@@ -30,7 +30,7 @@ const kennan ={
   name: 'Kennan',
   email: 'kdiben1@tinypic.com',
   gender: 'M',
-  speak: function{
+  speak: function(){
     return "Hello, my name is Kennan!"
   },
 }
@@ -67,13 +67,13 @@ console.log(mitzi.name);
 console.log(kennan.id);
 
 // Keven's email
-console.log(kevin.email);
+console.log(keven.email);
 
 // Gannie's name
 console.log(gannie.name);
 
 // Antonietta's Gender
-console.log(atonietta.gender);
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
