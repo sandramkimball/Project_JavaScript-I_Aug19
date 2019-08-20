@@ -92,9 +92,10 @@ let carModels = [];
 let carModelsSorted = [];
 for(i=0; i<inventory.length; i++){
     carModels.push(inventory[i].car_model);
+    carModelsSorted.push(carModels.sort())
 };
 
-carModelsSorted.push(carModels.sort());
+carModelsSorted = carModels.sort();
 console.log(carModelsSorted);
 
 // ==== Challenge 4 ====
@@ -124,7 +125,7 @@ console.log(oldCars.length);
 
 let BMWAndAudi = [];
 for(i=0; i<inventory.length; i++){
-  if(inventory[i].car_make === 'BMW' || 'Audi'){
+  if(inventory[i] === 'BMW' || 'Audi'){
     BMWAndAudi.push([i]);
   }
 };
